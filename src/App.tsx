@@ -1,10 +1,12 @@
+import Header from "./components/Header/Index"
 
 
 function App() {
 
+  // ********** Return JSX **********
   return (
     <>
-      <h1 className="text-red-500">App</h1>
+      <Header />
     </>
   )
 }
